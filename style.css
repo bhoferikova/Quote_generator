@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=My+Soul&family=Roboto+Slab&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f09393, #f35d49);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+
+#date,
+#time{
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+#date{
+    font-size: 1.5rem;
+}
+#time{
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+.quotes{
+    height: 400px;
+    max-width: 700px;
+    margin: auto;
+    border: 10px solid rgb(238, 5, 83);
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quotes p{
+    text-align: center;
+    margin: 0 25px;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+}
+.quotes h3{
+    margin-top: 35px;
+    font-weight: 400;
+    font-family: 'My Soul', cursive;
+}
+.btn{
+    margin-top: 30px;
+    padding: .5rem 3rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    color: #fff;
+    background: rgb(238, 5, 83);
+    outline: none;
+    border: none;
+}
+
+@media(max-width: 480px){
+    .quotes p{
+        font-size: 1rem;
+    }
+}
